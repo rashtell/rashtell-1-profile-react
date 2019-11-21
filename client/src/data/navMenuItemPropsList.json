@@ -1,0 +1,32 @@
+{
+    "navMenuItemPropsList": [
+        {
+            "href": "#",
+            "id": "menuHome",
+            "aClassName": "w3-bar-item w3-button w3-padding-large w3-hover-black w3-black",
+            "iClassName": "fa fa-home w3-xxlarge",
+            "menu": "HOME"
+        },
+        {
+            "href": "#about",
+            "id": "menuAbout",
+            "aClassName": "w3-bar-item w3-button w3-padding-large w3-hover-black",
+            "iClassName": "fa fa-user w3-xxlarge",
+            "menu": "ABOUT"
+        },
+        {
+            "href": "#photos",
+            "id": "menuPhotos",
+            "aClassName": "w3-bar-item w3-button w3-padding-large w3-hover-black",
+            "iClassName": "fa fa-user w3-xxlarge",
+            "menu": "GALLERY"
+        },
+        {
+            "href": "#contact",
+            "id": "menuContact",
+            "aClassName": "w3-bar-item w3-button w3-padding-large w3-hover-black",
+            "iClassName": "fa fa-envelope w3-xxlarge",
+            "menu": "CONTACT"
+        }
+    ]
+}

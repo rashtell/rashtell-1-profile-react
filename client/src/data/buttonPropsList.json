@@ -1,0 +1,10 @@
+{
+    "buttonPropsList": [
+        {
+            "href": "http://localhost",
+            "buttonClassName": "w3-button w3-light-grey w3-padding-large w3-section",
+            "iClassName": "fa fa-download",
+            "text": "Download Resume"
+        }
+    ]
+}

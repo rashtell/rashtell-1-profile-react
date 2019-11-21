@@ -1,0 +1,80 @@
+{
+    "planPropsLists": [
+        {
+            "divClassName": "w3-half w3-margin-bottom",
+            "ulClassName": "w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off",
+            "liPropsList": [
+                {
+                    "className": "w3-dark-grey w3-xlarge w3-padding-32",
+                    "text": "Basic"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "Android App"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "Web Desing"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "5GB Storage"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "Mail Support"
+                }
+            ],
+            "price": {
+                "liClassName": "w3-padding-16",
+                "spanClassName": "w3-opacity",
+                "amount": "$ 10",
+                "duration": "per month"
+            },
+            "signUp": {
+                "liClassName": "w3-light-grey w3-padding-24",
+                "buttonClassName": "w3-button w3-white w3-padding-large w3-hover-black",
+                "href": "",
+                "text": "Sign Up"
+            }
+        },
+        {
+            "divClassName": "w3-half ",
+            "ulClassName": "w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off",
+            "liPropsList": [
+                {
+                    "className": "w3-dark-grey w3-xlarge w3-padding-32",
+                    "text": "Pro"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "Android App"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "Web Desing"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "50GB Storage"
+                },
+                {
+                    "className": "w3-padding-16",
+                    "text": "Endless Support"
+                }
+            ],
+            "price": {
+                "liClassName": "w3-padding-16",
+                "spanClassName": "w3-opacity",
+                "amount": "$ 25",
+                "duration": "per month"
+            },
+            "signUp": {
+                "liClassName": "w3-light-grey w3-padding-24",
+                "buttonClassName": "w3-button w3-white w3-padding-large w3-hover-black",
+                "href": "",
+                "text": "Sign Up"
+            }
+        }
+    ]
+}

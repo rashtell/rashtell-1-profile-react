@@ -1,0 +1,20 @@
+{
+    "contactInfoList": [
+        {
+            "iClassName": "fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right",
+            "info": "Abuja, Nigeria"
+        },
+        {
+            "iClassName": "fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right",
+            "info": "Phone: +2348134738157"
+        },
+        {
+            "iClassName": "fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right",
+            "info": "Email: abdulrasheed.tella00@gmail.com"
+        },
+        {
+            "iClassName": "fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right",
+            "info": "Email: rashtell2@gmail.com"
+        }
+    ]    
+}

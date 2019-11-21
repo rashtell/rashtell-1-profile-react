@@ -1,0 +1,36 @@
+{
+    "navMenuItemMiniPropsList": [
+        {
+            "href": "#",
+            "className": "w3-bar-item w3-button",
+            "style": {
+                "width": "25% !important"
+            },
+            "menu": "HOME"
+        },
+        {
+            "href": "#about",
+            "className": "w3-bar-item w3-button",
+            "style": {
+                "width": "25% !important"
+            },
+            "menu": "ABOUT"
+        },
+        {
+            "href": "#photos",
+            "className": "w3-bar-item w3-button",
+            "style": {
+                "width": "25% !important"
+            },
+            "menu": "GALLERY"
+        },
+        {
+            "href": "#contact",
+            "className": "w3-bar-item w3-button",
+            "style": {
+                "width": "25% !important"
+            },
+            "menu": "CONTACT"
+        }
+    ]
+}

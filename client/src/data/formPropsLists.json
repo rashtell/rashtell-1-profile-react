@@ -1,0 +1,38 @@
+{
+    "formPropsLists": {
+        "formPropsList": [
+            {
+                "className": "w3-input w3-padding-16",
+                "type": "text",
+                "placeholder": "Name",
+                "name": "name"
+            },
+            {
+                "className": "w3-input w3-padding-16",
+                "type": "email",
+                "placeholder": "Email",
+                "name": "email"
+            },
+            {
+                "className": "w3-input w3-padding-16",
+                "type": "text",
+                "placeholder": "Subject",
+                "name": "subject"
+            },
+            {
+                "className": "w3-input w3-padding-16",
+                "type": "text",
+                "placeholder": "Message",
+                "name": "message"
+            }
+        ],
+        "buttonPropsList": [
+            {
+                "href": "",
+                "buttonClassName": "w3-button w3-light-grey w3-padding-large",
+                "iClassName": "fa fa-paper-plane",
+                "text": "SEND MESSAGE"
+            }
+        ]
+    }
+}

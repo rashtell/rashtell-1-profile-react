@@ -1,0 +1,38 @@
+{
+    "skillsPropsLists": {
+        "h3ClassName": "w3-padding-16 w3-text-light-grey",
+        "heading": "My Skills",
+        "skillsPropsList": [
+            {
+                "pClassName": "w3-wide",
+                "name": "Android Programming",
+                "divClassName": "w3-white",
+                "div2ClassName": "w3-dark-grey",
+                "div2Style": {
+                    "height": "28",
+                    "width": "95%"
+                }
+            },
+            {
+                "pClassName": "w3-wide",
+                "name": "Web Design",
+                "divClassName": "w3-white",
+                "div2ClassName": "w3-dark-grey",
+                "div2Style": {
+                    "height": "28",
+                    "width": "85%"
+                }
+            },
+            {
+                "pClassName": "w3-wide",
+                "name": "Pen Testing",
+                "divClassName": "w3-white",
+                "div2ClassName": "w3-dark-grey",
+                "div2Style": {
+                    "height": "28",
+                    "width": "80%"
+                }
+            }
+        ]
+    }
+}
