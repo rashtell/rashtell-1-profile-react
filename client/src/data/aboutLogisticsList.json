@@ -1,28 +1,28 @@
 {
-    "aboutLogisticsList": [
-        {
-            "divClassName": "w3-quarter w3-section",
-            "spanClassName": "w3-xlarge",
-            "value": 11,
-            "name": "Partners"
-        },
-        {
-            "divClassName": "w3-quarter w3-section",
-            "spanClassName": "w3-xlarge",
-            "value": 55,
-            "name": "Projects Done"
-        },
-        {
-            "divClassName": "w3-quarter w3-section",
-            "spanClassName": "w3-xlarge",
-            "value": 150,
-            "name": "Meetings"
-        },
-        {
-            "divClassName": "w3-quarter w3-section",
-            "spanClassName": "w3-xlarge",
-            "value": 89,
-            "name": "Happy Clients"
-        }
-    ]
+  "aboutLogisticsList": [
+    {
+      "divClassName": "w3-quarter w3-section",
+      "spanClassName": "w3-xlarge",
+      "value": 11,
+      "name": "Partners"
+    },
+    {
+      "divClassName": "w3-quarter w3-section",
+      "spanClassName": "w3-xlarge",
+      "value": 55,
+      "name": "Projects Done"
+    },
+    {
+      "divClassName": "w3-quarter w3-section",
+      "spanClassName": "w3-xlarge",
+      "value": 200,
+      "name": "Meetings"
+    },
+    {
+      "divClassName": "w3-quarter w3-section",
+      "spanClassName": "w3-xlarge",
+      "value": 89,
+      "name": "Happy Clients"
+    }
+  ]
 }

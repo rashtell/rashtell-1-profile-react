@@ -1,9 +1,6 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
-import { Body } from './components/Body';
+import { Body } from "./components/Body";
 
-
-render(
-    <Body />, document.getElementById('root')
-)
+render(<Body />, document.getElementById("root"));
