@@ -2,6 +2,7 @@
   "name": "rashtell",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "nodemon": "^1.19.1",
     "react": "^16.8.6",

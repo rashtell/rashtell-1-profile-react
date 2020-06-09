@@ -4,26 +4,26 @@
         "heading": "My Reputation",
         "testimonialsPropsList": [
             {
-                "imgSrc": "customer1.jpg",
+                "imgSrc": "images/customer1.jpg",
                 "imgClassName": "w3-left w3-circle w3-margin-right",
                 "imgStyle": {
                     "width": "80"
                 },
                 "spanClassName": "w3-large w3-margin-right",
-                "name": "Chris Fox",
-                "position": "CEO at Mighty Schools",
-                "remarks": "Tella Abdulrasheed saved us from a web disaster."
+                "name": "Eniade Emmanuel",
+                "position": "CEO at 9jadaries",
+                "remarks": "Abdulrasheed saved us from a web disaster."
             },
             {
-                "imgSrc": "customer2.jpg",
+                "imgSrc": "images/customer2.jpg",
                 "imgClassName": "w3-left w3-circle w3-margin-right",
                 "imgStyle": {
                     "width": "80"
                 },
                 "spanClassName": "w3-large w3-margin-right",
-                "name": "Rebecca Flex",
-                "position": "CEO at Company",
-                "remarks": "No one is better than Tella Abdulrasheed."
+                "name": "Bello Muhammed",
+                "position": "CEO at BlackBox Limited",
+                "remarks": "No one is better than Abdulrasheed."
             }
         ]
     }
