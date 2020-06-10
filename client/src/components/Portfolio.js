@@ -13,7 +13,7 @@ class Grid extends Component {
             <div key={i} className={gridProp.divClassName}>
               {gridProp.column.map((gridColumn, i) => {
                 return (
-                  <iframe src={gridColumn.href} style={gridColumn.imgstyle}></iframe>
+                  <iframe src={gridColumn.href} style={gridColumn.imgstyle} referrerpolicy="noreferrer"></iframe>
                   // <a
                   //   key={i}
                   //   href={gridColumn.href}
