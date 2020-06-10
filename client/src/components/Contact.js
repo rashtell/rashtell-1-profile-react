@@ -4,8 +4,37 @@ import { Button } from "./Button";
 
 import { formPropsLists } from "../data/formPropsLists";
 import { contactInfoList } from "../data/contactInfoList";
+import { appVariables } from "./Body";
 
 class Form extends Component {
+  state = {};
+
+  persistInput = (e) => {
+    this.setState({ [e.currentTarget.name]: e.currentTarget.value });
+  };
+
+  sendMail = (e) => {
+    e.preventDefault();
+
+    const url = appVariables().baseurl;
+
+    fetch(`${url}/v1/message`, {
+      headers: {
+        "Content-Type": "application/json",
+        Accepts: "application/json",
+      },
+      method: "POST",
+      body: JSON.stringify({ ...this.state }),
+    })
+      .then((res) => res.json)
+      .then((resJson) => {
+        window.alert("Message succeessfully sent. Thanks.");
+      })
+      .catch((error) => {
+        window.alert("Message failed. Thanks.");
+      });
+  };
+
   render() {
     const { formProps } = this.props;
 
@@ -15,6 +44,7 @@ class Form extends Component {
           return (
             <p key={i}>
               <input
+                onChange={this.persistInput}
                 className={formProp.className}
                 type={formProp.type}
                 placeholder={formProp.placeholder}
@@ -25,7 +55,11 @@ class Form extends Component {
           );
         })}
 
-        <Button buttonProps={formProps.buttonPropsList} />
+        <Button
+          type="submit"
+          submitHandler={this.sendMail}
+          buttonProps={formProps.buttonPropsList}
+        />
       </form>
     );
   }

@@ -5,7 +5,7 @@
         "skillsPropsList": [
             {
                 "pClassName": "w3-wide",
-                "name": "Android Programming",
+                "name": "Full Stack Web Development",
                 "divClassName": "w3-white",
                 "div2ClassName": "w3-dark-grey",
                 "div2Style": {
@@ -15,7 +15,7 @@
             },
             {
                 "pClassName": "w3-wide",
-                "name": "Web Design",
+                "name": "Mobile Application Development",
                 "divClassName": "w3-white",
                 "div2ClassName": "w3-dark-grey",
                 "div2Style": {

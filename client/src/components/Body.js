@@ -24,3 +24,8 @@ export class Body extends Component {
     );
   }
 }
+
+export const appVariables = () =>
+  process.env.NODE_ENV === "production"
+    ? { baseurl: "https://apis.rashtell.com" }
+    : { baseurl: "http://localhost/rashtell/apis" };

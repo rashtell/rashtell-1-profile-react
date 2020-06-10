@@ -23,13 +23,13 @@ export class About extends Component {
 
         <Button buttonProps={buttonPropsList} />
 
-        <Plans
+        {/* <Plans
           planProps={planPropsLists}
           divClassName="w3-row-padding"
           divStyle={{ margin: 0 - 16 }}
           h3ClassName="w3-padding-16 w3-text-light-grey"
           heading="My Prices"
-        />
+        /> */}
 
         <Testimonials testimonialsProps={testimonialsPropsLists} />
       </div>
@@ -60,12 +60,22 @@ class Skills extends Component {
         {skillsProps.skillsPropsList.map((skillsProp, i) => {
           return (
             <div key={i}>
-              <p className={skillsProp.pClassName}>{skillsProp.name}</p>
               <div className={skillsProp.divClassName}>
                 <div
                   className={skillsProp.div2ClassName}
                   style={skillsProp.div2Style}
-                ></div>
+                >
+                  <p
+                    className={skillsProp.pClassName}
+                    style={{
+                      paddingLeft: "10px",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                    }}
+                  >
+                    {skillsProp.name}
+                  </p>
+                </div>
               </div>
             </div>
           );
@@ -85,12 +95,14 @@ class AboutLogistics extends Component {
         <div
           key={i}
           className="w3-row w3-center w3-padding-16 w3-section w3-light-grey"
+          style={{ paddingLeft: "43%" }}
         >
           <div className={aboutLogistic.divClassName}>
             <span className={aboutLogistic.spanClassName}>
-              {aboutLogistic.value}+''
+              {aboutLogistic.value}
             </span>
-            <br />
+            {/* <br /> */}
+            {"      "}
             {aboutLogistic.name}
           </div>
         </div>

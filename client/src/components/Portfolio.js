@@ -13,18 +13,19 @@ class Grid extends Component {
             <div key={i} className={gridProp.divClassName}>
               {gridProp.column.map((gridColumn, i) => {
                 return (
-                  <a
-                    key={i}
-                    href={gridColumn.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={gridColumn.imgSrc}
-                      alt=""
-                      style={gridColumn.imgStyle}
-                    />
-                  </a>
+                  <iframe src={gridColumn.href} style={gridColumn.imgstyle}></iframe>
+                  // <a
+                  //   key={i}
+                  //   href={gridColumn.href}
+                  //   target="_blank"
+                  //   rel="noopener noreferrer"
+                  // >
+                  //   <img
+                  //     src={gridColumn.imgSrc}
+                  //     alt=""
+                  //     style={gridColumn.imgStyle}
+                  //   />
+                  // </a>
                 );
               })}
             </div>
