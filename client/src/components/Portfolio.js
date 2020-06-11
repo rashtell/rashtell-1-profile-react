@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
 import { gridPropsList } from "../data/gridPropsList";
+
 
 class Grid extends Component {
   render() {

@@ -1,13 +1,19 @@
 import React, { Component } from "react";
-
+import { contactInfoList } from "../data/contactInfoList";
+import { formPropsLists } from "../data/formPropsLists";
+import { sendMessage } from "../services/apis/message";
 import { Button } from "./Button";
 
-import { formPropsLists } from "../data/formPropsLists";
-import { contactInfoList } from "../data/contactInfoList";
-import { appVariables } from "./Body";
-
 class Form extends Component {
-  state = {};
+  state = {
+    type: "Rashtel",
+  };
+
+  clearState = () => {
+    this.setState({
+      type: "Rashtel",
+    });
+  };
 
   persistInput = (e) => {
     this.setState({ [e.currentTarget.name]: e.currentTarget.value });
@@ -16,23 +22,11 @@ class Form extends Component {
   sendMail = (e) => {
     e.preventDefault();
 
-    const url = appVariables().baseurl;
-
-    fetch(`${url}/v1/message`, {
-      headers: {
-        "Content-Type": "application/json",
-        Accepts: "application/json",
-      },
-      method: "POST",
-      body: JSON.stringify({ ...this.state }),
-    })
-      .then((res) => res.json)
-      .then((resJson) => {
-        window.alert("Message succeessfully sent. Thanks.");
+    sendMessage(this.state)
+      .then(() => {
+        this.clearState();
       })
-      .catch((error) => {
-        window.alert("Message failed. Thanks.");
-      });
+      .catch(() => {});
   };
 
   render() {
