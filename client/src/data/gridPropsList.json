@@ -5,7 +5,7 @@
       "column": [
         {
           "href": "https://black-box.com.ng",
-          "imgSrc": "",
+          "imgSrc": "/images/black-box.com.ng.jpg",
           "imgStyle": {
             "width": "100%"
           }
@@ -17,7 +17,7 @@
       "column": [
         {
           "href": "https://rashtell.now.sh",
-          "imgSrc": "",
+          "imgSrc": "/images/rashtell.now.sh.jpg",
           "imgStyle": {
             "width": "100%"
           }

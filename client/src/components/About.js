@@ -90,24 +90,19 @@ class AboutLogistics extends Component {
   render() {
     const { aboutLogistics } = this.props;
 
-    return aboutLogistics.map((aboutLogistic, i) => {
-      return (
-        <div
-          key={i}
-          className="w3-row w3-center w3-padding-16 w3-section w3-light-grey"
-          style={{ paddingLeft: "43%" }}
-        >
-          <div className={aboutLogistic.divClassName}>
-            <span className={aboutLogistic.spanClassName}>
-              {aboutLogistic.value}
-            </span>
-            {/* <br /> */}
-            {"      "}
-            {aboutLogistic.name}
-          </div>
-        </div>
-      );
-    });
+    return (
+      <div className="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        {aboutLogistics.map((aboutLogistic, i) => {
+          return (
+            <div key={i} className="w3-quarter w3-section">
+              <span className="w3-xlarge">{aboutLogistic.value}</span>
+              <br />
+              {aboutLogistic.name}
+            </div>
+          );
+        })}
+      </div>
+    );
   }
 }
 
@@ -165,15 +160,17 @@ class Testimonials extends Component {
   render() {
     const { testimonialsProps } = this.props;
     return (
-      <div>
+      <>
         <h3 className={testimonialsProps.h3ClassName}>
           {testimonialsProps.heading}
         </h3>
 
         {testimonialsProps.testimonialsPropsList.map((testimonialsProp, i) => {
           return (
-            <div key={i}>
+            <React.Fragment key={i}>
               <img
+                width="100px"
+                height="100px"
                 src={testimonialsProp.imgSrc}
                 alt={testimonialsProp.name}
                 className={testimonialsProp.imgClassName}
@@ -187,10 +184,10 @@ class Testimonials extends Component {
               </p>
               <p>{testimonialsProp.remarks}</p>
               <br />
-            </div>
+            </React.Fragment>
           );
         })}
-      </div>
+      </>
     );
   }
 }
