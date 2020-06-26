@@ -6,7 +6,7 @@ export const sendMessage = (messageObj) => {
   return fetch(`${url}/v1/message/create/message`, {
     headers: header(),
     method: "POST",
-    body: JSON.stringify(messageObj),
+    body: JSON.stringify({data : messageObj}),
   })
     .then((res) => res.json)
     .then((resJson) => {

@@ -6,12 +6,12 @@ import { Button } from "./Button";
 
 class Form extends Component {
   state = {
-    type: "Rashtel",
+    website:window.location.host,
   };
 
   clearState = () => {
     this.setState({
-      type: "Rashtel",
+    website:window.location.host,
     });
   };
 
